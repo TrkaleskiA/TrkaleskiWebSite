@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="full">
+    <nav class="menu">
+        <ul>
+            <li><a href="Home.html">Почетна</a></li>
+            <li><a href="Education.html">Едукација</a></li>
+            <li><a class="active" href="Contact.html">Контакт</a></li>
+            <li style="float:right"><a href="About.html">Повеќе за мене</a></li>
+            <img style="padding-right: 15px; float:right; width: 18%; height: 18%"src="images/finki-logo-9-en.png">
+        </ul>
+
+    </nav>
+
+    <table class="table5">
+        <tr>
+            <td>
+                <div class="container">
+                    <h2>Доколку сакате да останеме во контакт, контирајте ме на оваа форма,<br> или на мојот маил <a href="mailto:aleksandar.trkaleski@students.finki.ukim.mk ">тука</a></h2>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container">
+                    <form>
+                        <label for="fname">Име</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Внеси име..">
+
+                        <label for="lname">Презиме</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Внеси презиме..">
+
+                        <label for="country">Држава</label>
+                        <select id="country" name="country">
+                            <option value="macedonia">Македонија</option>
+                            <option value="serbia">Србија</option>
+                            <option value="australia">Австралија</option>
+                        </select>
+
+                        <label for="subject">Субјект</label>
+                        <textarea id="subject" name="subject" placeholder="Внеси текст.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </td>
+
+        </tr>
+
+    </table>
+
+    <nav class="menu1">
+        <p style="display: inline-block;padding-left: 100px">&copy; Факултет за информатички науки и компјутерско инженерство</p>
+    </nav>
+</div>
+</body>
+</html>
